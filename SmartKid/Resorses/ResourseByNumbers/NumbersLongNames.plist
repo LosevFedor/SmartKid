@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>цифра0</string>
+	<string>цифра1</string>
+	<string>цифра2</string>
+	<string>цифра3</string>
+	<string>цифра4</string>
+	<string>цифра5</string>
+	<string>цифра6</string>
+	<string>цифра7</string>
+	<string>цифра8</string>
+	<string>цифра9</string>
+	<string>цифра10</string>
+</array>
+</plist>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="ipad12_9" orientation="landscape" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ABCCategoryViewController" customModule="SmartKid" customModuleProvider="target">
+            <connections>
+                <outlet property="backgroundAlphabetImage" destination="Kvy-Fc-gsl" id="cjk-P9-Uj6"/>
+                <outlet property="iCarouselView" destination="AV4-qM-CnN" id="Ox5-ai-Jro"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bqL-8A-Ukx">
+                    <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Kvy-Fc-gsl">
+                            <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
+                        </imageView>
+                        <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AV4-qM-CnN" customClass="iCarousel">
+                            <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="Kvy-Fc-gsl" secondAttribute="trailing" id="D9c-P1-qBu"/>
+                        <constraint firstAttribute="trailing" secondItem="AV4-qM-CnN" secondAttribute="trailing" id="DBU-Eu-g4D"/>
+                        <constraint firstAttribute="bottom" secondItem="Kvy-Fc-gsl" secondAttribute="bottom" id="RsG-gL-yaY"/>
+                        <constraint firstItem="AV4-qM-CnN" firstAttribute="top" secondItem="bqL-8A-Ukx" secondAttribute="top" id="Sx4-5Z-mJf"/>
+                        <constraint firstItem="AV4-qM-CnN" firstAttribute="leading" secondItem="bqL-8A-Ukx" secondAttribute="leading" id="aFj-cb-8WD"/>
+                        <constraint firstItem="Kvy-Fc-gsl" firstAttribute="leading" secondItem="bqL-8A-Ukx" secondAttribute="leading" id="jbE-1F-YTi"/>
+                        <constraint firstAttribute="bottom" secondItem="AV4-qM-CnN" secondAttribute="bottom" id="mLA-kM-eKp"/>
+                        <constraint firstItem="Kvy-Fc-gsl" firstAttribute="top" secondItem="bqL-8A-Ukx" secondAttribute="top" id="nWs-3Z-JmV"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="bqL-8A-Ukx" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="EI8-Ke-Bt2"/>
+                <constraint firstItem="bqL-8A-Ukx" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="WNG-tr-V7J"/>
+                <constraint firstAttribute="bottom" secondItem="bqL-8A-Ukx" secondAttribute="bottom" id="bjl-vY-Chs"/>
+                <constraint firstAttribute="trailing" secondItem="bqL-8A-Ukx" secondAttribute="trailing" id="ng2-A5-IGn"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="138.61607142857142" y="144.92753623188406"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>backBtnZero</string>
+	<string>backBtnOne</string>
+	<string>backBtnTwo</string>
+	<string>backBtnThree</string>
+	<string>backBtnFour</string>
+	<string>backBtnFive</string>
+	<string>backBtnSix</string>
+	<string>backBtnSeven</string>
+	<string>backBtnEight</string>
+	<string>backBtnNine</string>
+</array>
+</plist>

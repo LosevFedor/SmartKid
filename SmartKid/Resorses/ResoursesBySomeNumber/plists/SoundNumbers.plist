@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>ноль</string>
+	<string>один</string>
+	<string>два</string>
+	<string>три</string>
+	<string>четыре</string>
+	<string>пять</string>
+	<string>шесть</string>
+	<string>семь</string>
+	<string>восемь</string>
+	<string>девять</string>
+</array>
+</plist>

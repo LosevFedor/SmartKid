@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>forwardBtnZero</string>
+	<string>forwardBtnOne</string>
+	<string>forwardBtnTwo</string>
+	<string>forwardBtnThree</string>
+	<string>forwardBtnFour</string>
+	<string>forwardBtnFive</string>
+	<string>forwardBtnSix</string>
+	<string>forwardBtnSeven</string>
+	<string>forwardBtnEight</string>
+	<string>forwardBtnNine</string>
+</array>
+</plist>

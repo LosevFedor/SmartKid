@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>sketchNumberZero</string>
+	<string>sketchNumberOne</string>
+	<string>sketchNumberTwo</string>
+	<string>sketchNumberThree</string>
+	<string>sketchNumberFour</string>
+	<string>sketchNumberFive</string>
+	<string>sketchNumberSix</string>
+	<string>sketchNumberSeven</string>
+	<string>sketchNumberEight</string>
+	<string>sketchNumberNine</string>
+</array>
+</plist>

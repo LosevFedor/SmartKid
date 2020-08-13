@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>numberZeroImage</string>
+	<string>numberOneImage</string>
+	<string>numberTwoImage</string>
+	<string>numberThreeImage</string>
+	<string>numberFourImage</string>
+	<string>numberFiveImage</string>
+	<string>numberSixImage</string>
+	<string>numberSevenImage</string>
+	<string>numberEightImage</string>
+	<string>numberNineImage</string>
+</array>
+</plist>
